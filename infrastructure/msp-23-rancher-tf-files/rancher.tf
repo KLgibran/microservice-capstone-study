@@ -53,7 +53,7 @@ resource "aws_alb_target_group" "rancher-tg" {
   name = var.tg-name
   port = 80
   protocol = "HTTP"
-  vpc_id = " vpc-0b922ba241458b6ef"
+  vpc_id = "vpc-0b922ba241458b6ef"
   target_type = "instance"
 
   health_check {
