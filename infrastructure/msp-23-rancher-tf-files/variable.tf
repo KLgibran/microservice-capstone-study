@@ -22,7 +22,7 @@ variable "secgrname" {
 }
 
 variable "domain-name" {
-  default = "*.ibrahimu.net"
+  default = "rancher.ibrahimu.net"
 }
 
 variable "rancher-subnet" {

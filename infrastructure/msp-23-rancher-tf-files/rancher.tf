@@ -186,7 +186,7 @@ resource "null_resource" "privatekey" {
   provisioner "local-exec" {
     command = "terraform output -raw private > ~/.ssh/${var.mykey}.pem"
   }
-    provisioner "local-exec" {
+  provisioner "local-exec" {
       command = "cd ~/.ssh/ && chmod 400 ${var.mykey}.pem"
     }
 }
