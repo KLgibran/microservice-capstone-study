@@ -22,15 +22,15 @@ variable "secgrname" {
 }
 
 variable "domain-name" {
-  default = "*.clarusway.us"
+  default = "*.ibrahimu.net"
 }
 
 variable "rancher-subnet" {
-  default = "subnet-3ccd235a"
+  default = "subnet-0435d059f024d2820"
 }
 
 variable "hostedzone" {
-  default = "clarusway.us"
+  default = "ibrahimu.net"
 }
 
 variable "tg-name" {
